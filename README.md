@@ -25,5 +25,5 @@
 - [ ] 后台管理界面
 
 ## 注意
-- 数据库用户名:root 密码:cqupt-free
+- 数据库用户名:root 密码:cqupt-free 数据库名称:zhihu
 - Picture/Picture.java pictureInit方法里的地址 和 servlets/pictureEdit.jaba multipartConfig标签里的地址 是写死了的，需要手动修改。
