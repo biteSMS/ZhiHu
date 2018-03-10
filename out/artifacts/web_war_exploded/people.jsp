@@ -86,11 +86,7 @@
     <div id="container">
         <div id="change"><button class="button" onclick="location.href='edit.jsp'">编辑个人资料</button></div>
         <div id="user">
-            <%if(session.getAttribute("userpicture_address") == null){%>
-            <div id="userpicture"><img src="images/head-portrait.png"></div>
-            <%}else{%>
             <div id="userpicture"><img src="images/user_picture/<%=session.getAttribute("username")%>.png"></div>
-            <%}%>
             <div id="username" class="user-frame"><%=session.getAttribute("username")%></div>
             <%if(session.getAttribute("selfdescription") == null){%>
             <div id="selfdescription" class="user-frame">这个家伙很聪明，什么都没有留下~</div>

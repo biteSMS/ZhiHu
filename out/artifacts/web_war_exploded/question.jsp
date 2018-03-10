@@ -174,7 +174,7 @@
                             var answer_id = document.querySelectorAll('.answer_id');
 
                             for (var m = 0; m < res.answer.length; m++) {
-                                user[m].innerHTML = '<a href="JumpPerson?username='+res.answer[res.answer.length - m -1].username+'" target="_blank"><img src="images/user_picture/'+res.answer[res.answer.length - m -1].username+'.png" width="26px" height="26px">'+res.answer[res.answer.length - m -1].username+'</a>';
+                                user[m + 1].innerHTML = '<a href="JumpPerson?username='+res.answer[res.answer.length - m -1].username+'" target="_blank"><img src="images/user_picture/'+res.answer[res.answer.length - m -1].username+'.png" width="26px" height="26px">'+res.answer[res.answer.length - m -1].username+'</a>';
                                 answerContent[m].innerHTML = res.answer[res.answer.length - m -1].answer_content;
                                 supportNum[m].innerHTML = res.answer[res.answer.length - m -1].answer_support_amount;
                                 answer_id[m].innerHTML = res.answer[res.answer.length - m -1].answer_id;
