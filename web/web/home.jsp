@@ -40,10 +40,8 @@
             <div id="head-portrait">
                 <% if(session.getAttribute("username")==null){%><%-- 用户未登录，显示默认头像--%>
                 <img src="images/head-portrait.png" width="31px" height="31px">
-                <%}else if(session.getAttribute("userpicture_address") != null ){%><%--已登陆,用户头像已更新,显示用户头像--%>
+                <%}else{%><%--已登陆,用户头像已更新,显示用户头像--%>
                 <img src="images/user_picture/<%=session.getAttribute("username")%>.png" width="31px" height="31px">
-                <%}else{%>
-                <img src="images/head-portrait.png" width="31px" height="31px">
                 <%}%>
             </div>
         </div>
