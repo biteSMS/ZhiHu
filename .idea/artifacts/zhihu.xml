@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="zhihu">
+    <output-path>$PROJECT_DIR$/out/artifacts/zhihu</output-path>
+    <root id="archive" name="zhihu.war">
+      <element id="dir-copy" path="$PROJECT_DIR$/web/web" />
+    </root>
+  </artifact>
+</component>

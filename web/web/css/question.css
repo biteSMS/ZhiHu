@@ -1,0 +1,276 @@
+#container {
+    margin: 0 auto;
+    padding: 53px 0;
+    width: 100%;
+    height: auto;
+}
+
+#question-header {
+    width: 100%;
+    min-height: 178px;
+    background: #fff;
+    padding: 16px 0;
+    overflow: hidden;
+    box-shadow: 0 1px 3px rgba(26,26,26,.1);
+    position: relative;
+}
+
+#question-header-container {
+    width: 800px;
+    margin: 0 auto;
+}
+
+#title {
+    font-size: 22px;
+    font-weight: 600;
+    color: #1a1a1a;
+    line-height: 32px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+#description {
+    height: 100px;
+    font-size: 15px;
+    line-height: 25px;
+    min-height: 75px;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+#show {
+    width: 90px;
+    height: 30PX;
+    cursor: pointer;
+    color: slategray;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    bottom: 0;
+    margin-left: 100px;
+}
+
+.frame {
+    background: #fff;
+    border-radius: 3px;
+    box-shadow: 0px 0px 1px 1px rgba(26, 26, 26, .1);
+    overflow: hidden;
+}
+
+#comment-container {
+    width: 800px;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+.comment {
+    width: 740px;
+    min-height: 145px;
+    padding: 20px 30px;
+}
+
+.user a{
+    color: inherit;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.user img {
+    cursor: pointer;
+    border-radius: 3px;
+    margin-right: 10px;
+}
+
+.user {
+    margin-bottom: 15px;
+}
+
+.comment-text {
+    min-height: 70px;
+    font-size: 15px;
+    line-height: 25px;
+    margin-bottom: 10px;
+}
+
+.comment-item {
+    width: 100px;
+    display: flex;
+    line-height: 24px;
+    cursor: pointer;
+    color: slategray;
+    margin-bottom: 10px;
+}
+
+.reply {
+    width: 725px;
+    min-height: 90px;
+    margin: 0 auto;
+    display: none;
+}
+
+.reply-user img {
+    width: 28px;
+    height: 28px;
+    margin-right: 10px;
+}
+
+.reply-content {
+    width: 685px;
+    min-height: 90px;
+    padding: 10px 20px;
+    /* background: blanchedalmond; */
+}
+
+.reply-user {
+    width: 130px;
+    font-weight: 600;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.reply-user a {
+    color: #1a1a1a;
+}
+
+.reply-footer {
+    width: 685px;
+    height: 36px;
+    padding: 12px 20px;
+}
+
+.reply-input {
+    width: 565px;/*655*/
+    height: 36px;
+    padding: 0 15px;
+    border-radius: 3px;
+    font-size: 16px;
+    border: solid 1px rgb(90, 89, 89);
+    background: rgb(248, 246, 246);
+    opacity: .7;
+    transition: all .3s;
+}
+
+.reply-button {
+    width: 60px;
+    height: 38px;
+    background: #0084ff;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    border: none;
+    cursor: pointer;
+    border-radius: 3px;
+    margin-right: 5px;
+    float: right;
+}
+
+.reply-button:hover {
+    background: #0976db;
+}
+
+#write-comment {
+    width: 52px;
+    height: 32px;
+    padding: 0 16px;
+    position: absolute;
+    bottom: 2px;
+    /* margin-left: 715px; */
+    border: solid 1px #0084ff;
+    color: #0084ff;
+    text-align: center;
+    font-size: 17px;
+    border-radius: 3px;
+    line-height: 32px;
+    cursor: pointer;
+}
+
+#write-comment:hover {
+    background: #f4f9ff;
+}
+
+#comment-add {
+    width: 800px;
+    height: 280px;
+    margin: 0 auto;
+    margin-top: 10px;
+    display: none;
+}
+
+#comment-add-header {
+    width: 740px;
+    height: 40px;
+    padding: 16px 30px;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+
+#edit {
+    width: 740px;
+    height: 100px;
+    border: none;
+    font-size: 18px;
+    padding: 20px 30px;
+    resize: none;
+    font-family: inherit;
+    background: rgb(248, 248, 248);
+}
+
+.edit-submit {
+    width: 100px;
+    height: 35px;
+    margin-right: 20px;
+    margin-top: 10px;
+    background: #0084ff;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    border: none;
+    cursor: pointer;
+    border-radius: 3px;
+    float: right;
+}
+
+#edit:hover {
+    background: rgb(253, 251, 251);
+}
+
+.edit-submit:hover {
+    background: #0976db;
+}
+
+#cancel {
+    background: rgb(204, 204, 209);
+    color: #000;
+    margin-right: 5px;
+}
+
+#cancel:hover {
+    background: rgb(189, 189, 189);
+}
+
+.add-like {
+    background: rgb(185, 222, 252);
+    width: 70px;
+    height: 35px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+    color: rgb(24, 48, 126);
+    border-radius: 3px;
+    margin-top: -5px;
+    cursor: pointer;
+}
+
+.add-like img{
+    margin-top: 5px;
+}
+
+.add-like:hover {
+    background: rgb(154, 208, 252);
+}
+
+.comment-footer {
+    display: flex;
+}

@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: url(../images/index_background.png);
+    background-size: cover;
+    height: 800px;
+    text-align: center;
+}
+
+#containr {
+    width: 435px;
+    height: 510px;
+    margin: 0 auto;
+    margin-top: 5vw;
+    box-shadow: 9px 9px 20px 2px rgba(26,26,26,.1);
+}
+
+#sign {
+    width: 100%;
+    height: 86%;
+    background: #fff;
+}
+
+#header {
+    width: 100%;
+    height: 28%;
+    background: #fff;
+}
+
+#logo {
+    width: 140px;
+    height: 67px;
+    margin: 0 auto;
+}
+
+#logo img {
+    margin-top: 25px;
+}
+
+#text {
+    width: 100%;
+    height: 30px;
+    color: #0084ff;
+    font-size: 22px;
+    margin-top: 33px;
+}
+
+#account {
+    width: 100%;
+    height: 55%;
+}
+
+.register {
+    width: 100%;
+    height: 100%;
+}
+
+.input {
+    width: 352px;
+    height: 45px;
+    overflow: hidden;
+    padding: 0;
+    border: none;
+    outline: none;
+    font-size: inherit;
+    margin-top: 15px;
+    border-bottom-style: solid;
+    border-bottom-color: rgba(1, 1, 1, .3);
+    border-bottom-width: 0.4px;
+}
+
+.form {
+    margin-top: 20px;
+}
+
+.button {
+    width: 352px;
+    height: 39px;
+    background: #0084ff;
+    border-color: #0084ff;
+    color: #fff;
+    margin: 0 auto;
+    margin-top: 45px;
+    line-height: 37px;
+    border-radius: 3px;
+    cursor: pointer;
+    border: none;
+    font-size: 15px;
+}
+
+.button:hover {
+    background: #0276e4;
+}
+
+#switch {
+    width: 100%;
+    height: 14%;
+    background: #f6f6f6;
+    line-height: 70px;
+}
+
+#switch span {
+    color: #035fb4;
+    cursor: pointer;
+}
+
+.reg-footer {
+    font-size: 15px;
+    line-height: 75px;
+    color: #8590a6;
+}
+
+.reg-footer a {
+    color: #175199;
+    text-decoration: none;
+}
+
+.reg-footer span {
+    cursor: pointer;
+}
+
+#app {
+    width: 435px;
+    height: 42px;
+    background: #8590a6;
+}
+
+#erweima {
+    display: none;
+    margin-top: -230px;
+    transition:all 1s linear;
+}

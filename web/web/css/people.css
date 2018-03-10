@@ -1,0 +1,109 @@
+#container {
+    width: 1000px;
+    height: 650px;
+    margin: 0 auto;
+    padding: 65px 0;
+    background: #ebf5fc;
+}
+
+.button {
+    width: 120px;
+    height: 36px;
+    padding: 0 16px;
+    border: solid 4px rgb(156, 199, 255);
+    color: #0084ff;
+    background: #e0f3ff;
+    cursor: pointer;
+    float: right;
+    margin-top: 30px;
+    margin-right: 50px;
+    overflow: hidden;
+    border-radius: 6px;
+}
+
+.button:hover {
+    background: #caebff;
+}
+
+#userpicture {
+    width: 300px;
+}
+
+#userpicture img{
+    width: 260px;
+    height: 260px;
+    border-radius: 10px;
+    box-shadow: -20px 20px 20px 12px rgba(26, 26, 26, .1);
+    border: solid 10px rgb(156, 199, 255);
+    border-radius: 10px;
+    transition: all 0.6s;
+}
+
+#userpicture:hover img{
+    width: 400px;
+    height: 400px;
+    margin-left: 200px;
+}
+
+#userpicture img:hover .user-frame {
+    background: black;
+}
+
+#userpicture {
+    margin-left: 60px;
+    margin-top: 150px;
+}
+
+#username {
+    height: 60px;
+    width: 460px;
+    font-size: 55px;
+    font-weight: 550;
+    margin-top: 150px;
+    margin-left: 100px;
+    position: absolute;
+    left: 330px;
+    top: -150px;
+    color: rgb(83, 82, 82);
+    line-height: 55px;
+    padding: 0 20px;
+}
+
+#user {
+    position: relative;
+    width: 960px;
+    padding: 0 20px;
+    z-index: 1;
+}
+
+#selfdescription {
+    width: 460px;
+    height: 90px;
+    margin-top: 300px;
+    margin-left: -230px;
+    color: #8590a6;
+    font-size: 20px;
+    position: absolute;
+    left: 660px;
+    top: -160px;
+    padding: 20px 20px;
+    transition: all 0.6s;
+}
+
+.user-frame {
+    border: solid 8px rgb(156, 199, 255);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.user-frame:hover {
+    background: #caebff;
+}
+
+#selfdescription:hover {
+    height: 180px;
+}
+
+#change {
+    display: block;
+}
