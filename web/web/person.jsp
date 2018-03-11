@@ -103,11 +103,7 @@
     <!-- 个人信息界面 -->
     <div id="container">
         <div id="user">
-            <%if(request.getAttribute("userpicture_address") == null){%>
-            <div id="userpicture"><img src="images/head-portrait.png"></div>
-            <%}else{%>
-            <div id="userpicture"><img src="<%=request.getAttribute("userpicture_address")%>"></div>
-            <%}%>
+            <div id="userpicture"><img src="images/user_picture/<%=request.getAttribute("username")%>.png"></div>
             <div id="username" class="user-frame"><%=request.getAttribute("username")%></div>
             <%if(request.getAttribute("selfdescription") == null){%>
             <div id="selfdescription" class="user-frame">这个用户很聪明，什么都没留下~</div>

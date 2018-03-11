@@ -38,15 +38,9 @@
                 <div id="messages">
                     <img src="images/messages.png" width="24px" height="24px">
                 </div>
-                <%if(session.getAttribute("userpicture_address") == null){%><%--用户未更新头像--%>
-                <div id="head-portrait">
-                    <img src="images/head-portrait.png" width="31px" height="31px">
-                </div>
-                <%}else{%><%--用户已更新头像--%>
                 <div id="head-portrait">
                     <img src="images/user_picture/<%=session.getAttribute("username")%>.png" width="31px" height="31px">
                 </div>
-                <%}%>
             </div>
             <div id="menu">
                 <a href="people.jsp">

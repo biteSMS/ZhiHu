@@ -170,6 +170,9 @@
             dataType : "json",
             success: function(res) {
                 var problem = document.querySelectorAll('.problem');
+                if (res.answer.length === problem.length) {
+                    alert('已显示所有的最新动态了哦！');
+                }
                 for (var m = 0; m < res.answer.length - problem.length; m++) {
                     $('#container-problem').append(problemDiv);
                 }
