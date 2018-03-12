@@ -156,7 +156,7 @@
             var questionTitle = document.querySelector('#title').innerText;
             var answerDiv = '<div class="comment frame"><div class="user"></div><div class="comment-text">小时候只是觉得星空很神秘，但是对这种神秘没有更深刻的体会。</div><div class="comment-footer"><div class="comment-item"><img src="images/messages.png" width="25px" height="25px" >查看评论</div><div class="add-like"><img src="images/support.png" width="20px" height="20px"><span class="supportNum">15</span><span class="answer_id" style="display: none;"></span></div></div></div></div>';
             $.ajax({
-                method: 'GET',
+                method: 'POST',
                 url:"AnswerRefresh1?question_title="+questionTitle,
                 dataType : "json",
                 success: function(res) {
