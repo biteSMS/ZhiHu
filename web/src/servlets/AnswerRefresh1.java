@@ -14,11 +14,11 @@ import java.io.IOException;
 
 public class AnswerRefresh1 extends HttpServlet {//用于问题页面刷新回答
 
-    public void doPost(HttpServletRequest request, HttpServletRequest response) throws ServletException, IOException, ClassNotFoundException {
-        this.doGet(request, (HttpServletResponse) response);
+    public void doGet(HttpServletRequest request, HttpServletRequest response) throws ServletException, IOException, ClassNotFoundException {
+        this.doPost(request, (HttpServletResponse) response);
     }
 
-    public void doGet(HttpServletRequest request, HttpServletResponse response) throws IOException, ServletException {//传入question_title,获得该问题所有回答，将回答数保存在session中生成div块
+    public void doPost(HttpServletRequest request, HttpServletResponse response) throws IOException, ServletException {//传入question_title,获得该问题所有回答，将回答数保存在session中生成div块
         request.setCharacterEncoding("UTF-8");
         HttpSession session = request.getSession();
         String question_title = request.getParameter("question_title");
